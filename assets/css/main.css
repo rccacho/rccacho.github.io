@@ -64,9 +64,20 @@ li {
   letter-spacing: 10px;
 }
 
+.border {
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+
+.footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 h3 {
   text-align: center;
   letter-spacing: 5px;
-  font: 20px "Lato", sans-serif;
+  font: 25px "Lato", sans-serif;
   color: #ddd;
 }
