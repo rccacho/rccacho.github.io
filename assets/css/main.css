@@ -6,6 +6,10 @@ body, html {
   color: #777;
 }
 
+li {
+  color: #FFF;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.6;
@@ -33,6 +37,14 @@ body, html {
 .bgimg-4 {
   background-image: url("https://farm6.static.flickr.com/5284/5299945869_71fde86af4_b.jpg");
   min-height: 200px;
+}
+
+.dark {
+  color: #ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
 }
 
 .caption {
