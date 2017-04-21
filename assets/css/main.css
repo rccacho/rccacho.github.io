@@ -10,6 +10,17 @@ li {
   color: #FFF;
 }
 
+h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  font: 25px "Lato", sans-serif;
+  color: #ddd;
+}
+
+.name {
+  font-size: 35px;
+}
+
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.6;
@@ -42,9 +53,13 @@ li {
 .dark {
   color: #ddd;
   background-color:#282E34;
-  text-align:center;
-  padding:50px 80px;
+  text-align: center;
+  padding: 50px 80px;
   text-align: justify;
+}
+
+.portfolio {
+  min-height: 775px;
 }
 
 .caption {
@@ -70,14 +85,25 @@ li {
   color: #f7f7f7;
 }
 
-.footer {
-  padding-top: 5px;
-  padding-bottom: 5px;
+.thumbnail {
+  filter: grayscale(1.0);
+  opacity: 0.8;
 }
 
-h3 {
+.thumbnail:hover {
+  filter: none;
+  opacity: 1.0;
+}
+
+.icon {
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
   text-align: center;
-  letter-spacing: 5px;
-  font: 25px "Lato", sans-serif;
-  color: #ddd;
+  font-size: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
