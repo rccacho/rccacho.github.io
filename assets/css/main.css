@@ -17,12 +17,6 @@ h3 {
   color: #ddd;
 }
 
-div {
-  media query {
-    padding: 5px;
-  }
-}
-
 .name {
   font-size: 35px;
 }
