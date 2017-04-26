@@ -59,8 +59,10 @@ h3 {
   text-align: justify;
 }
 
-.portfolio {
-  min-height: 775px;
+@media (min-width: 768px ) {
+  .portfolio {
+    min-height: 1250px;
+  }
 }
 
 .caption {
@@ -98,6 +100,10 @@ h3 {
 .thumbnail:hover {
   filter: none;
   opacity: 1.0;
+}
+
+.description {
+  padding: 20px;
 }
 
 .icon {
